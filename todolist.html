@@ -2,6 +2,7 @@
 <html>
     <head>
          <link rel= "stylesheet" href= "navbar.css" type ="text/css" />
+         <meta charset= "UTF-8">
         <title> </title>
     </head>
     <body>
@@ -15,9 +16,28 @@
             <li><a href= "bigproject.html"> Big Project </a> </li>
             <li><a href= "changer.html"> Background Changer </a></li>
         </ul>
+       
          
-      <h1 style = "color: indigo; font-family:comic sans ms;"><font size = "6"> <center> To do List </h1></font></center>  
-         <p style = "font-family: comic sans ms"><font size ="4">Sorry! This page is under construction! </p></font>
+   <input id="num1" type="number" name="quantity">
+        <input id="num2" type="number" name="quantity">
         
+        <form>
+Select which operation to perform
+<select id="operation">
+  <option>red</option>
+  <option>blue</option>
+  <option>green</option>
+  <option>purple</option>
+</select>
+
+     
+        <button id = "calculateButton"> Calculate</button>
+        <h1 id="answer"></h1>
+        
+        <script src = "todolist.js"> </script>
+        
+    
+
+
     </body>
 </html>
