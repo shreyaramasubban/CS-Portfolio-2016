@@ -12,14 +12,22 @@ addButton.addEventListener('click', function (){
     
 });
 
-list.addEventListener('click', function(evt){
+list.addEventListener('dblclick', function(evt){
     var removeTask = evt.target;
     removeTask.parentNode.removeChild(removeTask);
 
-    
-    
-    
-}) 
+});
+
+list.addEventListener('click', function(evt){
+    var strikeTask = document.getElementById("list");
+    var strikeTask = evt.target;
+    strikeTask.style.setProperty("text-decoration", "line-through");
+});
+
+
+
+
+
 
 
 
