@@ -41,4 +41,21 @@ calculateButton.addEventListener("click", function() {
         
         alert(ans);
     }
+    
+    if (inputoperation == "power of") {
+
+        var ans = Math.pow(inputnum1,inputnum2);
+
+        
+        alert(ans);
+    }
+    
+    if (inputoperation == "square root") {
+
+        var ans = Math.sqrt(inputnum1);
+
+        
+        alert(ans);
+    }
+    
 });
