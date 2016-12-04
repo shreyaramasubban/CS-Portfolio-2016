@@ -5,6 +5,7 @@
          <link rel= "stylesheet" href= "calculatorhowtopage.css" type ="text/css" />
         <title> </title>
     </head>
+    
     <body style="background-size: 100% auto;" background = http://cdn.paper4pc.com/images/abstract-art-colorful-colors-design-illustration-light-theme-wallpaper-17.jpg>
            <ul id="navbar">
             
@@ -16,9 +17,72 @@
             <li><a href= "bigproject.html"> Big Project </a> </li>
         </ul>
              <h1 style = "color: indigo; font-family:georgia;"><font size = "6"> <center> How to Make the Calculator Page </h1></font></center> 
-             <h2 style = "color: crimson; font-family: georgia;"><u><font size ="5"><center>Navbar</u></h2> </font></center>
-             <p style = "font-family: georgia"><font size ="4">First I linked the calculator page to the Navbar.</p></font>
- 
-
+             <p style = "font-family: georgia"><font size ="4">First I linked the calculator page to the Navbar and added the background image to the page.</p></font>
+           
+             <!-- HTML Variables --> 
+             <h2 style = "color: crimson; font-family: georgia;"><u><font size ="5"><center>Defining HTML Variables</u></h2> </font></center>
+             <div class="container">
+             <div style="width:10%"></div>     
+             <img style= "width:30%" src="int1images/calculator_htmlvariables.png">      
+             <p style = "width: 40%; font-family: georgia"><font size ="4"> In the html, I defined all the variables that I would use in the javascript. I used the &lt;input&gt; tag and id command to define the input variable as a number. I then created a drop-down list with 6 options using the &lt;option&gt; tag; I set the &quot;id&quot; of operation variable to the option that the user chose from the list. I created a variable for the &quot;calculate&quot; button using the &lt;button&gt; tag that operates the calculator. Also, I created a variable to display the answer.  </p></font>
+             </div> 
+             
+             <!-- JavaScript Variables --> 
+             <h2 style = "color: crimson; font-family: georgia;"><u><font size ="5"><center>Defining JavaScript Variables</u></h2> </font></center>
+             <div class="container">
+             <div style="width:2%"></div>    
+             <img style= "width:35%" src="int1images/calculator_jsvariables.png">  
+             <p style = "width: 50%; font-family: georgia"><font size ="4">In the beginning of my JavaScript, I created variables and set them to different variables from the html using &quot;document.getElementById.&quot;  I basically connected the equivalent variables in my html and JavaScript. </p></font>
+             </div>
+            
+            <!-- Button Function --> 
+             <h2 style = "color: crimson; font-family: georgia;"><u><font size ="5"><center>Functions</u></h2> </font></center>
+             <div class="container">
+             <div style="width:40%"></div>  
+             <p style = "font-family: georgia"><font size ="4">For my calculator, I wanted the program to run when I clicked the &quot;calculate&quot; button. So, I created a function for when the button is clicked using &quot;.addEventListener&quot; and &quot;('click', function().&quot; In the function, I first set the two input number variables and the operation variable to the value of those using the &quot;.value&quot; command. I then created an if then statement for each of the 6 operations that I wanted my calculator to do. For each if then statement, I used &quot;alert&quot; to display my answer. </p></font>
+             <img style= "width:32%" src="int1images/calculator_buttonfunction.png"> 
+             
+             <!-- Add -->
+              <div class="container">
+             <div style="width:40%"></div>  
+             <img style= "width:20" src="int1images/calculator_addition.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For addition, I set the answer equal to the sum of inputnum1 and inputnum2. </p></font></i>
+             <p></p>
+             
+             <!-- Subtract -->
+              <div class="container">
+             <div style="width:20%"></div>  
+             <img style= "width:20%" src="int1images/calculator_subtraction.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For subtraction, I set the answer equal to the difference of inputnum1 and inputnum2. </p></font></i>
+             <p></p>
+             
+             <!-- Multiplication -->
+              <div class="container">
+             <div style="width:100%"></div>  
+             <img style= "width:20%" src="int1images/calculator_multiplication.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For multiplication, I set the answer equal to the product of inputnum1 and inputnum2. </p></font></i>
+             <p></p>
+             
+             <!-- Division -->
+              <div class="container">
+             <div style="width:30%"></div>  
+             <img style= "width:20%" src="int1images/calculator_division.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For division, I set the answer equal to the quotient of inputnum1 and inputnum2. </p></font></i>
+             
+              <p></p>
+             <!-- Square root -->
+             <div class="container">
+             <div style="width:10%"></div>  
+             <img style= "width:20%" src="int1images/calculator_root.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For the root, I used the "Math.sqrt" command to find the root of the input. </p></font></i>
+             
+              <p></p>
+             <!-- Power of -->
+              <div class="container">
+             <div style="width:100%"></div>  
+             <img style= "width:20%" src="int1images/calculator_power.png">  
+             <p style = "width: 30%; font-family: georgia"><i><font size ="4">For the power, I used the "Math.pow" command to find the answer. I set the first number as the base and the second as the power.</p></font></i>
+             
+             
     </body>
 </html>
