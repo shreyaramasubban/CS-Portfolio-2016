@@ -5,6 +5,7 @@ var addButton = document.getElementById("addButton");
 var list = document.getElementById("list");
 var task = document.getElementById("task");
 var color = document.getElementById("color");
+var deleteColumn = document.getElementById("addcolumn");
 
 //This is the function that lets the user add items to the list in specific colors.
 addButton.addEventListener('click', function (){
@@ -27,12 +28,6 @@ list.addEventListener('click', function(evt){
     var strikeTask = evt.target;
     strikeTask.style.setProperty("text-decoration", "line-through");
 });
-
-
-
-
-
-
 
 
 
