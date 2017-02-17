@@ -1,8 +1,20 @@
-.column{
+/* .column{
 
 }
 .column > *{
     display:inline-block;
     width: 60%;
     vertical-align: top;
+}
+
+*/
+
+#howto {
+   
+    
+}
+.container > * {
+     display: inline-block;
+     vertical-align: top;
+     
 }
