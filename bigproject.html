@@ -1,23 +1,53 @@
-<!DOCTYPE html>
-<html>
-    <head>
-         <link rel= "stylesheet" href= "navbar.css" type ="text/css" />
-        <title> </title>
-    </head>
-    <body>
-           <ul id="navbar">
-            
-            <li><a href= "index.html"> About Me </a> </li>
-            <li><a href= "hardware.html">  Hardware  </a> </li>
-            <li><a href= "calculator.html"> Calculator  </a> </li>
-            <li><a href= "todolist.html"> To do List </a> </li>
-            <li><a href= "vindinium.html"> Vindinium </a> </li>
-            <li><a href= "bigproject.html"> Big Project </a> </li>
-            <li><a href= "changer.html"> Background Changer </a></li>
-        </ul>
-         
-      <h1 style = "color: indigo; font-family:comic sans ms;"><font size = "6"> <center> Big Project </h1></font></center>  
-         <p style = "font-family: comic sans ms"><font size ="4">Sorry! This page is under construction! </p></font>
-        
-    </body>
-</html>
+<form name = "quizQ1">
+
+<b>Question 1: In Aladdin, what is the name of Jasmine’s pet tiger?</b><br> <br>
+ 
+
+<input type = "radio" name = "rad1" id = "1a" onclick = "getAnswer(1, 'a')"> Rajah <br>
+<input type = "radio" name = "rad1" id = "1b" onclick = "getAnswer(1, 'b')"> Abu <br>
+<input type = "radio" name = "rad1" id = "1c" onclick = "getAnswer(1, 'c')"> Ali <br>
+<input type = "radio" name = "rad1" id = "1d" onclick = "getAnswer(1, 'd')"> It does not have a name <br><br><br>
+
+
+<b>Question 2: Which was the first Disney princess film? </b><br> <br>
+
+<input type = "radio" name = "rad2" id = "2a" onclick = "getAnswer(2, 'a')"> Cinderella<br>
+<input type = "radio" name = "rad2" id = "2b" onclick = "getAnswer(2, 'b')"> The Little Mermaid <br>
+<input type = "radio" name = "rad2" id = "2c" onclick = "getAnswer(2, 'c')"> Snow White and the Seven Dwarfs <br>
+<input type = "radio" name = "rad2" id = "2d" onclick = "getAnswer(2, 'd')"> Beauty and the Beast <br><br><br>
+</form>
+
+<b>Question 3: Which is the only Disney animated film with a main character that doesn’t speak? </b><br> <br>
+
+<input type = "radio" name = "rad3" id = "3a" onclick = "getAnswer(3, 'a')"> Lady and the Tramp<br>
+<input type = "radio" name = "rad3" id = "3b" onclick = "getAnswer(3, 'b')"> Bambi <br>
+<input type = "radio" name = "rad3" id = "3c" onclick = "getAnswer(3, 'c')"> Dumbo <br>
+<input type = "radio" name = "rad3" id = "3d" onclick = "getAnswer(3, 'd')"> The Aristocats <br><br><br>
+</form>
+
+<b>Question 4: Which Disney movie was the first to be nominated for an Oscar? </b><br> <br>
+
+<input type = "radio" name = "rad4" id = "4a" onclick = "getAnswer(4, 'a')"> The Little Mermaid<br>
+<input type = "radio" name = "rad4" id = "4b" onclick = "getAnswer(4, 'b')"> Beauty and the Beast <br>
+<input type = "radio" name = "rad4" id = "4c" onclick = "getAnswer(4, 'c')"> Frozen <br>
+<input type = "radio" name = "rad4" id = "4d" onclick = "getAnswer(4, 'd')"> Moana <br><br><br>
+</form>
+
+<b>Question 5: Which Disney princess has the ability to heal others? </b><br> <br>
+
+<input type = "radio" name = "rad5" id = "5a" onclick = "getAnswer(5, 'a')"> Belle<br>
+<input type = "radio" name = "rad5" id = "5b" onclick = "getAnswer(5, 'b')"> Pochahontas <br>
+<input type = "radio" name = "rad5" id = "5c" onclick = "getAnswer(5, 'c')"> Elsa <br>
+<input type = "radio" name = "rad5" id = "5d" onclick = "getAnswer(5, 'd')"> Rapunzel <br><br><br>
+</form>
+
+<b>Question 6: Which character is the only female in her movie? There are no females in the background either. </b><br> <br>
+
+<input type = "radio" name = "rad6" id = "6a" onclick = "getAnswer(6, 'a')"> Esmeralda<br>
+<input type = "radio" name = "rad6" id = "6b" onclick = "getAnswer(6, 'b')"> Kanga <br>
+<input type = "radio" name = "rad6" id = "6c" onclick = "getAnswer(6, 'c')"> Mulan <br>
+<input type = "radio" name = "rad6" id = "6d" onclick = "getAnswer(6, 'd')"> Jasmine <br><br><br>
+</form>
+   <button id = "showAnswersButton"> Show Answers</button>
+
+<script type="text/javascript" src="bigproject.js"></script>
