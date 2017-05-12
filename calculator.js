@@ -18,13 +18,10 @@ calculateButton.addEventListener("click", function() {
     if (inputoperation == "+") {
 
         var ans = inputnum1 + inputnum2;
-<div id="wrong1">            
-<p>              
-<strong>Question 1:</strong> The correct answer is the <strong>Answer 2</strong>.</p>        
-</div>     
-       
+        
+        alert(ans);
     }
-    
+
         if (inputoperation == "-") {
 
         var ans = inputnum1 - inputnum2;
